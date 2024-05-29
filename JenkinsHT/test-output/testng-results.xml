@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T22:53:50 IST" name="TestSuite" finished-at="2024-05-29T22:53:50 IST" duration-ms="61">
+    <groups>
+      <group name="regression">
+        <method signature="TestCase.test2()[pri:0, instance:com.epam.TestCase@49049a04]" name="test2" class="com.epam.TestCase"/>
+        <method signature="TestCase.test3()[pri:0, instance:com.epam.TestCase@49049a04]" name="test3" class="com.epam.TestCase"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestCase.test1()[pri:0, instance:com.epam.TestCase@49049a04]" name="test1" class="com.epam.TestCase"/>
+        <method signature="TestCase.test3()[pri:0, instance:com.epam.TestCase@49049a04]" name="test3" class="com.epam.TestCase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-29T22:53:50 IST" name="TestCases" finished-at="2024-05-29T22:53:50 IST" duration-ms="61">
+      <class name="com.epam.TestCase">
+        <test-method signature="test1()[pri:0, instance:com.epam.TestCase@49049a04]" started-at="2024-05-29T22:53:50 IST" name="test1" finished-at="2024-05-29T22:53:50 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.epam.TestCase@49049a04]" started-at="2024-05-29T22:53:50 IST" name="test2" finished-at="2024-05-29T22:53:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:com.epam.TestCase@49049a04]" started-at="2024-05-29T22:53:50 IST" name="test3" finished-at="2024-05-29T22:53:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.epam.TestCase -->
+    </test> <!-- TestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>
